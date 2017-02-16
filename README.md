@@ -4,6 +4,8 @@
 
 Should be installed in `/usr/local/Cellar/mame/{{ version number }}/bin/`
 
+I'm not sure I recommend using homebrew to install mame. Doesn't seem to read the mame.ini (which is created in ~). It also doesn't integrate well with ia-mame. When using from the commandline it will read roms from ~/roms. When using ia-mame it uses the bin folder...
+
 ## IA-MAME
 
 First we need java greater than version 6(?).
