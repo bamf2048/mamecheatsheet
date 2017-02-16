@@ -24,3 +24,7 @@ Make a `rom` folder: `/usr/local/Cellar/mame/{{ version number }}/roms`
 Make that writeable:
 
     chmod +w /usr/local/Cellar/mame/{{ version number }}/roms
+
+## My preferred mame.ini settings
+
+    filter 0
